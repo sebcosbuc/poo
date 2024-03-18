@@ -38,7 +38,7 @@ Complex operator+ (Complex param1, Complex param2)
     Complex rez;
     double temp;
     temp=param1.get_a();
-    temp=param2.get_a();
+    temp+=param2.get_a();
     rez.set_a(temp);
     rez.set_b(param1.get_b()+param2.get_b());
     return rez;
