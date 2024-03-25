@@ -30,7 +30,7 @@ public:
         }
         double get_valoare_tva()
         {
-            return cantitate*pret_unitar;
+            return cantitate*pret_unitar*tva;
         }
         double get_valoare_cu_tva()
         {
